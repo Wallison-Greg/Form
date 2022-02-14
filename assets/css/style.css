@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#fundo{
+    background-image: url('../img/livraria.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+}
+.cont-log{
+    display: flex;
+    justify-content: center;
+    align-items: top center;
+
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.425);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+form{
+    padding-top: 20px;
+}
+#termos{
+    display: inline-block;
+}
+#btn{
+    margin: auto;
+}
+label > a{
+    text-decoration: none;
+    color: black;
+}
+.perfil{
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.425);
+}
+.img{
+    background-image: url('../img/perfil-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+#cad{
+    display: block;
+    padding-top: 20px;
+    margin: 0px 60px ;
+    text-decoration: none;
+    color: black;
+}
+#cad:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Formulario de Cadastro*/
+
+.form-cad{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    background-color: #E7B06D;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+input, textarea{
+    display: block;
+}
+textarea{
+    resize: none;
+}
+.dados, 
+.doc{
+    flex: 1;
+}
+.dados{
+    padding-left: 30px;
+}
+#espaco{
+    margin: 50px 0px 0px 0px;
+}
